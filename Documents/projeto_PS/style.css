@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+header{
+    background: black;
+    padding: 15px 0;
+}
+
+header img{
+    position: relative;
+    width: 132px;
+    left: 110px;
+}
+
+.topo{
+    position: relative;
+    top: 10px;
+	width: 940px;
+}
+
+nav{
+    position: relative;
+    left: 770px; 
+    
+}
+
+nav li {
+    color:white;
+    display: inline;
+    margin: 0 0 0 20px;
+    
+}
