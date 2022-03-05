@@ -1,33 +1,96 @@
 body{
+    
+    height: 100vh;
+    width: 100vw;
     font-family: 'Roboto', sans-serif;;
 }
 
 header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: black;
     padding: 15px 0;
+    width: 100vw;
 }
 
-header img{
-    position: relative;
-    width: 132px;
-    left: 110px;
-}
-
-.topo{
-    position: relative;
-    top: 10px;
-	width: 940px;
-}
-
-nav{
-    position: relative;
-    left: 770px; 
+.logo{
     
+    margin-left: 100px;
+}
+
+.logo img{
+    width: 132px;
+}
+
+.nave{
+    margin-right: 100px ;
 }
 
 nav li {
     color:white;
     display: inline;
     margin: 0 0 0 20px;
+    
+}
+
+nav a{
+    color: white;
+    font-weight: 600;
+	font-size: 15px;
+    text-decoration: none;   
+}
+
+nav a:hover{
+    color: #1ed760;
+}
+
+main{
+    
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url(showcase.jpg);
+}
+
+.content{
+
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content h1{
+    
+    /* color: rgba(0, 128, 0, 0.151);    */
+    font-size: 156px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 40px ;
+} 
+
+.content h2{
+    
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 80px ;
+} 
+
+#botao{
+    
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-radius: 500px;
+    background-color: #1ed760;
+    
+}
+
+#botao:hover{
+    font-size: 20px;
     
 }
