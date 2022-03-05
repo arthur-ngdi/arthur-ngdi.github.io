@@ -3,6 +3,7 @@ body{
     height: 100vh;
     width: 100vw;
     font-family: 'Roboto', sans-serif;;
+    overflow-x: hidden;
 }
 
 header{
@@ -81,6 +82,7 @@ main{
 
 #botao{
     
+    
     font-size: 18px;
     font-weight: bold;
     padding: 20px 40px;
@@ -92,7 +94,6 @@ main{
 
 #botao:hover{
     font-size: 20px;
-    
 }
 
 footer{
@@ -108,11 +109,28 @@ footer{
     align-items: center;
     justify-content: space-around;
     width: 100vw;
+    
 }
 
-#item1{
-    color: white;
-    background-color: #222326;
+#social_media{
+    display: inline;
+    margin: 0 0 0 20px;
+    
+}
+
+#item1 img{
+    width: 24px;
+    height: 24px;  
+}
+
+#item2 img{
+    width: 24px;
+    height: auto;  
+}
+
+#item3 img{
+    width: 14px;
+    height: auto;  
 }
 
 footer nav a{
