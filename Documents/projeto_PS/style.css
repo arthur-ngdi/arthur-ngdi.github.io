@@ -8,7 +8,7 @@ body{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background: black;
     padding: 15px 0;
     width: 100vw;
@@ -27,21 +27,21 @@ header{
     margin-right: 100px ;
 }
 
-nav li {
+#nav_header li {
     color:white;
     display: inline;
     margin: 0 0 0 20px;
     
 }
 
-nav a{
+#nav_header a{
     color: white;
     font-weight: 600;
 	font-size: 15px;
     text-decoration: none;   
 }
 
-nav a:hover{
+#nav_header a:hover{
     color: #1ed760;
 }
 
@@ -65,7 +65,7 @@ main{
 
 .content h1{
     
-    /* color: rgba(0, 128, 0, 0.151);    */
+    
     font-size: 156px;
     text-align: center;
     font-weight: bold;
@@ -93,4 +93,28 @@ main{
 #botao:hover{
     font-size: 20px;
     
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    
+}
+
+.social{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+#item1{
+    color: white;
+    background-color: #222326;
+}
+
+footer nav a{
+    color: white;
 }
