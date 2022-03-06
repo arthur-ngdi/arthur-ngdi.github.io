@@ -106,21 +106,112 @@ footer{
 .social{
     
     display:flex;
-    align-items: center;
-    justify-content: space-around;
+    padding: 50px 200px 20px;
+    justify-content:space-evenly;
+    margin-right: 120px ;
     width: 100vw;
+    height: 30vh;
     
+}
+
+.social .empresa li{
+    padding: 10px 0 15px;
+    
+}
+
+.social .comunidade li{
+    padding: 10px 0 15px;
+}
+
+.social .links li{
+    padding: 10px 0 15px;
+}
+
+.social .empresa li:nth-child(-n+1){
+    margin-top: 10px;
+    color: #919496;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.social .comunidade li:nth-child(-n+1){
+    margin-top: 10px;
+    color: #919496;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.social .links li:nth-child(-n+1){
+    margin-top: 10px;
+    color: #919496;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.social .empresa li:nth-child(n+2){
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.social .empresa li:nth-child(n+2) a:hover{
+    color:#1ed760;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.social .comunidade li:nth-child(n+2){
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.social .comunidade li:nth-child(n+2) a:hover{
+    color:#1ed760;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.social .links li:nth-child(n+2){
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.social .links li:nth-child(n+2) a:hover{
+    color:#1ed760;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 #social_media{
-    display: inline;
-    margin: 0 0 0 20px;
-    
+    margin-left: 150px;
+
 }
+
+#social_media li{
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #222326;
+    width: 54px;
+    height: 54px;
+}
+
+
 
 #item1 img{
     width: 24px;
-    height: 24px;  
+    height: auto;  
+    
 }
 
 #item2 img{
@@ -133,6 +224,7 @@ footer{
     height: auto;  
 }
 
-footer nav a{
-    color: white;
+#item1 a:hover{
+    background-image: url(instagram_green.png);
 }
+
