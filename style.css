@@ -97,9 +97,13 @@ main{
 
 footer{
     display: flex;
+    flex-direction: column;
     background-color: black;
     width: 100vw;
+    height: auto;
+    
 }
+
 
 .logo_footer img{
     width:132px;
@@ -108,7 +112,7 @@ footer{
 .social{
     
     padding: 50px 0;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     display:flex;
     justify-content:space-evenly;
     margin-right: 120px;
@@ -223,6 +227,7 @@ footer{
 }
 
 
+
 @media only screen and (max-width: 1366px){
     .social{
         padding: 70px 0;
@@ -307,5 +312,35 @@ footer{
         width: 15px;
         height: auto;
     }
+
+    .copy{
+        display: flex;
+        justify-content: space-between;
+        
+        
+        
+    }
+    .copy .privacidade nav li{
+        display: inline ;
+        align-items: center;
+        margin: 0 0 0 10px;
+        color:  #919496;   
+        font-size: 12px;
+       
+    }
+
+    .copy .copyright nav li{
+        
+        align-items: center;
+        color:  #919496;   
+        font-size: 12px;
+       
+    }
+
+    .copyright nav li:nth-child(n+1){
+        text-align:right ;
+        padding-bottom: 20px;
+    }
+    
      
 }
