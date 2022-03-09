@@ -66,7 +66,7 @@ main{
 .content h1{
     
     
-    font-size: 156px;
+    font-size: 140px;
     text-align: center;
     font-weight: bold;
     padding-bottom: 40px ;
@@ -234,7 +234,8 @@ footer{
         display:flex;
         justify-content:space-evenly;
         width: 100vw;
-        height: 30vh;
+        height: 50vh;
+        
         
     }
     
@@ -313,34 +314,56 @@ footer{
         height: auto;
     }
 
-    .copy{
-        display: flex;
-        justify-content: space-between;
-        
+    .super_copy{
+        display:flex;
+        flex-direction: column;
         
         
     }
+
+    .super_copy .pais h3{
+        color:#919496;
+        font-size: 12px;
+        padding-bottom: 20px;
+        padding-right: 80px;
+        text-align: right;
+        
+        
+    }
+
+    .copy{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+          
+    }
+
     .copy .privacidade nav li{
         display: inline ;
         align-items: center;
         margin: 0 0 0 10px;
         color:  #919496;   
         font-size: 12px;
-       
+           
     }
-
-    .copy .copyright nav li{
+  
+    .copy .copyright nav li {  
         
-        align-items: center;
         color:  #919496;   
         font-size: 12px;
        
     }
 
-    .copyright nav li:nth-child(n+1){
-        text-align:right ;
-        padding-bottom: 20px;
+    .copy .copyright{
+        color:#919496; 
+        font-size: 12px;
     }
+
+    
+
+   
     
      
 }
