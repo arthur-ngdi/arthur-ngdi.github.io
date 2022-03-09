@@ -226,7 +226,50 @@ footer{
    
 }
 
+.super_copy{
+    display:flex;
+    flex-direction: column;  
+}
 
+.super_copy .pais h3{
+    color:#919496;
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    text-align: right;
+    
+    
+}
+
+.copy{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: 150px;
+      
+}
+
+.copy .privacidade nav li{
+    display: inline ;
+    align-items: center;
+    margin: 0 0 0 10px;
+    color:  #919496;   
+    font-size: 12px;
+       
+}
+
+.copy .copyright nav li {  
+    
+    color:  #919496;   
+    font-size: 12px;
+   
+}
+
+.copy .copyright{
+    color:#919496; 
+    font-size: 12px;
+}
 
 @media only screen and (max-width: 1366px){
     .social{
@@ -360,10 +403,5 @@ footer{
         color:#919496; 
         font-size: 12px;
     }
-
-    
-
-   
-    
-     
+  
 }
