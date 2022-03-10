@@ -259,6 +259,10 @@ footer{
        
 }
 
+.copy .privacidade nav li:hover{
+    color:#1ed760;
+}
+
 .copy .copyright nav li {  
     
     color:  #919496;   
